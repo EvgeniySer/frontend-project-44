@@ -11,7 +11,8 @@ A set of console games to train your brain!
 * `brain-even` — Even number checker
 * `brain-calc` — Arithmetic expression calculator
 * `brain-gcd` — Greatest Common Divisor (GCD) finder
+* `brain-progression` — Arithmetic progression puzzle
 
-### Demo: brain-gcd
+### Demo: brain-progression
 
 **Successful game:**
