@@ -15,4 +15,7 @@ lintfix:
 	npx eslint . --fix --config eslintrc.json
 
 link:
-	sudo npm link
+	npm link
+
+unlink:
+	npm unlink
