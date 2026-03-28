@@ -44,3 +44,24 @@ export const calcGame = {
     return { question, correctAnswer };
   }
 };
+
+const findGCD = (a, b) => {
+  while (b !== 0) {
+    const temp = b;
+    b = a % b;
+    a = temp;
+  }
+  return a;
+};
+
+export const gcdGame = {
+  gameDescription: 'Find the greatest common divisor of given numbers.',
+  generateRound: () => {
+    const num1 = getRandomNumber();
+    const num2 = getRandomNumber();
+    const question = `${num1} ${num2}`;
+    const correctAnswer = String(findGCD(num1, num2));
+
+    return { question, correctAnswer };
+  }
+};
