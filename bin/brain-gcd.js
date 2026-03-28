@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import runGame from '../src/index.js';
-import { gcdGame } from '../src/cli.js';
-
+import gcdGame from '../src/games/gcd.js';
 
 runGame(gcdGame.gameDescription, gcdGame.generateRound);
