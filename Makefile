@@ -12,4 +12,7 @@ lint:
 	npx eslint
 
 lintfix:
-	npx eslint . --fix --config .eslintrc.json
+	npx eslint . --fix --config eslintrc.json
+
+link:
+	sudo npm link
